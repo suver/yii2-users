@@ -1,0 +1,22 @@
+{
+    "name": "suver/yii2-users",
+    "description": "You users",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","users","rbck","farpse"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Suver",
+            "email": "suver@farpse.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "suver/yii2-editor": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "suver\\users\\": ""
+        }
+    }
+}
